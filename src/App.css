@@ -1,0 +1,99 @@
+/* General styles */
+body {
+  background-color: #000000; /* Primary background */
+  color: #f8f4e8; /* Secondary text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Landing Page Container */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Title */
+.landing-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+.landing-caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+.logo {
+  width: 120px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 16px; /* Space between logo and title */
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 150px; /* Slightly larger for bigger screens */
+  }
+}
+
+
+/* Button Grid */
+.button-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .button-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Buttons */
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16rem;
+  height: 5rem;
+  font-size: 1.125rem;
+  background-color: #f8f4e8;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+/* Icons */
+.button svg {
+  margin-right: 0.5rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
