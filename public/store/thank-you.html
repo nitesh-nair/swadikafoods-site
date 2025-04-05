@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You - Swadika Foods</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    /* Thank you page specific styles */
+    .thank-you-container {
+      max-width: 600px;
+      margin: 2rem auto;
+      text-align: center;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 3rem 2rem;
+      animation: fadeIn 0.5s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .success-icon {
+      color: #4caf50;
+      font-size: 4rem;
+      display: inline-block;
+      border: 3px solid #4caf50;
+      border-radius: 50%;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    .thank-you-heading {
+      color: #4caf50;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .thank-you-message {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .action-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: #388e3c;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-secondary {
+      background-color: #f5f5f5;
+      color: #333;
+      border: 1px solid #ddd;
+    }
+
+    .btn-secondary:hover {
+      background-color: #e8e8e8;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .order-details {
+      margin: 2rem 0;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+      text-align: left;
+    }
+
+    .order-details h3 {
+      margin-top: 0;
+      color: #333;
+      font-size: 1.2rem;
+    }
+
+    .order-id {
+      font-family: monospace;
+      background-color: #f0f0f0;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .social-share {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .social-icon {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      background-color: #f5f5f5;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+      transform: translateY(-2px);
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./assets/swadika-logo.svg" alt="Swadika Foods" class="logo">
+  </header>
+
+  <main>
+    <div class="thank-you-container">
+      <div class="success-icon">
+        <i data-lucide="check"></i>
+      </div>
+      
+      <h1 class="thank-you-heading">Thank You!</h1>
+      
+      <p class="thank-you-message">
+        Your order has been successfully placed. We've sent your order details to WhatsApp and 
+        we'll be in touch soon to confirm your delivery.
+      </p>
+      
+      <!-- <div class="order-details">
+        <h3>Order Information</h3>
+        <p>Order Reference: <span class="order-id" id="order-id">SW-<script>document.write(Math.floor(Math.random() * 100000))</script></span></p>
+        <p>Order Date: <span id="order-date"><script>document.write(new Date().toLocaleDateString())</script></span></p>
+        <p>Payment Method: WhatsApp Payment</p>
+      </div> -->
+      
+      <div class="action-buttons">
+        <a href="index.html" class="btn btn-primary">Continue Shopping</a>
+      </div>
+      
+      <div class="social-share">
+        <a href="https://www.facebook.com/share/1D9etR2xJh/?mibextid=wwXIfr" class="social-icon" title="Share on Facebook">
+          <i data-lucide="facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/swadikafoods" class="social-icon" title="Share on Instagram">
+          <i data-lucide="instagram"></i>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Swadika Foods. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Initialize icons
+    document.addEventListener('DOMContentLoaded', function() {
+      lucide.createIcons();
+    });
+    
+    // Track order function placeholder
+    function trackOrder() {
+      alert("Order tracking will be available soon!");
+    }
+    
+    // Clear the cart data
+    localStorage.removeItem("cart");
+  </script>
+</body>
+</html>

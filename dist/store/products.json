@@ -1,0 +1,122 @@
+[
+    {
+      "id": "mango-pickle",
+      "name": "Mango Pickle",
+      "description": "Authentic South Indian dosa mix, ready to cook.",
+      "price": 8.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Mixes",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "lime-pickle",
+      "name": "Lime Pickle",
+      "description": "Traditional blend of spices for perfect sambar.",
+      "price": 6.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Spices",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "garlic-pickle",
+      "name": "Garlic Pickle",
+      "description": "Quick and easy authentic coconut chutney.",
+      "price": 5.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Mixes",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "fish-pickle",
+      "name": "Fish Pickle",
+      "description": "Aromatic blend for traditional South Indian rasam.",
+      "price": 7.49,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Spices",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "meat-pickle",
+      "name": "Meat Pickle",
+      "description": "Essential aromatic herb for authentic Indian cooking.",
+      "price": 4.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Herbs",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "ginger-pickle",
+      "name": "Ginger Pickle",
+      "description": "Aromatic long-grain rice for perfect biryanis and pulaos.",
+      "price": 12.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Grains",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "wild-lemon-and-dates-pickle",
+      "name": "Wild Lemon and Dates Pickle",
+      "description": "Traditional clarified butter for cooking and seasoning.",
+      "price": 14.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Dairy",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "pineapple-pickle",
+      "name": "Pineapple Pickle",
+      "description": "Traditional clarified butter for cooking and seasoning.",
+      "price": 14.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Dairy",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "prawns-pickle",
+      "name": "Prawns Pickle",
+      "description": "Traditional clarified butter for cooking and seasoning.",
+      "price": 14.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Dairy",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "chicken-pickle",
+      "name": "Chicken Pickle",
+      "description": "Traditional clarified butter for cooking and seasoning.",
+      "price": 14.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Dairy",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "lime-and-dates-pickle",
+      "name": "Lime and Dates Pickle",
+      "description": "Traditional clarified butter for cooking and seasoning.",
+      "price": 14.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Dairy",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "gooseberry-pickle",
+      "name": "Gooseberry Pickle",
+      "description": "Traditional clarified butter for cooking and seasoning.",
+      "price": 14.99,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Dairy",
+      "inStock": true,
+      "featured": false
+    }
+  ]

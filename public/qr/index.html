@@ -68,8 +68,8 @@
 
         // Redirect after 2 seconds (for UX)
         setTimeout(() => {
-            window.location.href = redirectURL;
-        }, 2000);
+        window.location.replace(redirectURL); // Ensures full redirection
+    }, 2000);
     </script>
 </head>
 <body>
