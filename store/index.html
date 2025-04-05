@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swadika Foods</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header>
+    <img src="./assets/swadika-logo.svg" alt="Swadika Foods" class="logo">
+    <div class="cart-icon-container" onclick="toggleCart()">
+      <i data-lucide="shopping-cart"></i>
+      <span id="cart-badge">0</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="products-section">
+      <h2>Our Products</h2>
+      <div id="products-grid" class="products-grid">
+        <div class="loading-indicator">Loading products...</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Cart Sidebar -->
+  <div id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+      <h3><i data-lucide="shopping-bag"></i> Your Cart</h3>
+      <button class="close-cart" onclick="toggleCart()">&times;</button>
+    </div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-footer">
+      <span>Total: <strong id="cart-total-price">₹0.00</strong></span>
+      <button id="whatsapp-order-btn" class="whatsapp-button" disabled>
+        <i data-lucide="message-circle"></i> Checkout
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Swadika Foods. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
