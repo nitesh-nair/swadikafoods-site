@@ -1,0 +1,122 @@
+[
+    {
+      "id": "mango-pickle",
+      "name": "Mango Pickle",
+      "description": "A tangy and spicy Kerala-style mango pickle made from farm-fresh raw mangoes, cold-pressed gingelly oil, and hand-ground spices—naturally cured and free from additives.",
+      "price": 120,
+      "image": "./assets/mango-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "lime-pickle",
+      "name": "Lime Pickle",
+      "description": "A tangy, gut-friendly Kerala-style lime pickle made with fresh limes, cold-pressed oils, and no preservatives—pure, wholesome, and packed with authentic flavor.",
+      "price": 150,
+      "image": "./assets/lime-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "garlic-pickle",
+      "name": "Garlic Pickle",
+      "description": "A bold and flavorful Kerala-style garlic pickle made with sun-cured cloves, cold-pressed gingelly oil, and traditional spices—naturally fermented for rich taste and health benefits.",
+      "price": 180,
+      "image": "./assets/garlic-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "fish-pickle",
+      "name": "Fish Pickle",
+      "description": "A healthy, homemade Kerala-style fish pickle made with fresh fish, cold-pressed gingelly oil, and natural spices—rich in protein, omega-3s, and free from artificial preservatives.",
+      "price": 250,
+      "image": "./assets/fish-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "meat-pickle",
+      "name": "Meat Pickle",
+      "description": "A bold and protein-rich Kerala-style beef pickle made with slow-cooked beef, cold-pressed gingelly oil, and hand-ground spices—naturally fermented and free from additives.",
+      "price": 270,
+      "image": "./assets/meat-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "ginger-pickle",
+      "name": "Ginger Pickle (Puli Inji)",
+      "description": "A sweet, spicy, and tangy Kerala-style ginger pickle (puli inchi) made with fresh ginger, tamarind, jaggery, and traditional spices—naturally preserved and great for digestion.",
+      "price": 170,
+      "image": "./assets/ginger-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "wild-lemon-and-dates-pickle",
+      "name": "Wild Lemon and Dates Pickle",
+      "description": "A bold and aromatic Kerala-style pickle made with wild lemon (vadukapuli), juicy dates, and traditional spices—offering a perfectly balanced burst of tangy, sweet, and spicy flavors.",
+      "price": 170,
+      "image": "./assets/wild-lemon-and-dates-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "pineapple-pickle",
+      "name": "Pineapple Pickle",
+      "description": "A sweet, spicy, and tangy Kerala-style pineapple pickle made with ripe pineapples, traditional spices, and cold-pressed gingelly oil—naturally fermented for a tropical, gut-friendly twist.",
+      "price": 140,
+      "image": "./assets/pineapple-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "prawns-pickle",
+      "name": "Prawns Pickle",
+      "description": "A flavorful, homemade Kerala-style prawns pickle made with fresh prawns, cold-pressed sesame oil, and traditional spices—rich in protein, naturally preserved, and free from additives.",
+      "price": 260,
+      "image": "./assets/prawns-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "chicken-pickle",
+      "name": "Chicken Pickle",
+      "description": "A spicy and tangy Kerala-style chicken pickle made with lean chicken, cold-pressed gingelly oil, and traditional spices—naturally preserved, protein-rich, and free from additives.",
+      "price": 230,
+      "image": "./assets/chicken-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "lime-and-dates-pickle",
+      "name": "Lime and Dates Pickle",
+      "description": "A uniquely flavorful Kerala-style pickle made with sun-cured limes, juicy dates, and traditional spices—perfectly balancing tangy, sweet, and spicy notes in every bite.",
+      "price": 160,
+      "image": "./assets/lime-and-dates-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "gooseberry-pickle",
+      "name": "Gooseberry Pickle",
+      "description": "A tangy and spicy Kerala-style gooseberry pickle (nellikka achar) made with fresh amla, cold-pressed sesame oil, and traditional spices—rich in antioxidants and bursting with bold flavor.",
+      "price": 150,
+      "image": "./assets/gooseberry-pickle.jpg",
+      "category": "Pickle",
+      "inStock": true,
+      "featured": false
+    }
+  ]

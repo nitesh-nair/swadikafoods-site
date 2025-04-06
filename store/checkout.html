@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swadika Foods - Checkout</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="checkout-styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header>
+    <img src="./assets/swadika-logo.svg" alt="Swadika Foods" class="logo">
+    <div class="cart-icon-container" onclick="toggleCart()">
+      <i data-lucide="shopping-cart"></i>
+      <span id="cart-badge">0</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="checkout-form">
+      <h2>Checkout</h2>
+      <form>
+        <label for="user-name">Name</label>
+        <input type="text" id="user-name" placeholder="Your full name" required>
+    
+        <label for="user-phone">Phone</label>
+        <input type="tel" id="user-phone" placeholder="10-digit mobile number" required>
+
+        <label for="user-pincode">Pincode</label>
+        <input type="text" pattern="[0-9]{6}" maxlength="6" inputmode="numeric" id="user-pincode" placeholder="6-digit PIN code">
+    
+        <label for="user-address">Address</label>
+        <textarea id="user-address" placeholder="Your delivery address" required></textarea>
+    
+        <h3>Order Summary</h3>
+        <div id="order-summary" class="order-summary"></div>
+    
+        <button type="submit" id="place-order-btn">Place Order on WhatsApp</button>
+      </form>
+    </section>    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Swadika Foods. All rights reserved.</p>
+  </footer>
+
+  <script src="checkout.js" defer></script>
+</body>
+</html>
